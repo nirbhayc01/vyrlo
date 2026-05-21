@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Privacy Policy - Attendance Pro</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Attendance Pro Palette */
+            --bg-color: #0B0F19;
+            --surface: rgba(255, 255, 255, 0.03);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent: #3b82f6;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: var(--surface);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .header-container {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 30px rgba(59,130,246,0.2);
+        }
+
+        h1 {
+            color: var(--text-main);
+            font-size: 26px;
+            font-weight: 800;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            color: var(--text-main);
+            font-size: 18px;
+            font-weight: 700;
+            margin: 36px 0 16px 0;
+            letter-spacing: -0.3px;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p, li {
+            font-size: 15px;
+            margin-bottom: 16px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        strong {
+            color: var(--text-main);
+            font-weight: 700;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            .container { padding: 30px 24px; }
+            body { padding: 20px 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-container">
+            <img src="assets/icon.png" alt="Attendance Pro Logo" class="logo">
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">Effective Date: April 2026</div>
+        </div>
+
+        <p>Attendance Pro is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and stored when you use our mobile application. We built this app with a <strong>privacy-first</strong> architecture.</p>
+
+        <h2>1. Data We Collect & How We Use It</h2>
+        <p>Attendance Pro is a "Local-First" application. This means the vast majority of your data never leaves your personal device.</p>
+        <ul>
+            <li><strong>Local Data:</strong> Your attendance history, subjects, timetable, tasks, and student name are stored exclusively in your device's local storage. We do not have access to, nor do we collect, this personal data.</li>
+            <li><strong>Timetable Sharing (Optional):</strong> If you choose to generate a "Share Code" to share your schedule, your timetable structure is uploaded to our secure database (Supabase). This data is linked to a random code and contains no personal identity.</li>
+            <li><strong>Push Notifications:</strong> If enabled, we collect an anonymous Firebase Cloud Messaging (FCM) token to send you reminders. This token does not identify you personally.</li>
+            <li><strong>Device Information:</strong> We may collect non-identifying information like device model and OS version for debugging and optimization purposes via the Android system.</li>
+        </ul>
+
+        <h2>2. Third-Party Services & Advertising</h2>
+        <p>The App uses third-party services that may collect information used to identify you:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> Used to display advertisements. AdMob may collect your Advertising ID and device identifiers to provide personalized or non-personalized ads and for analytics. <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+            <li><strong>Firebase Cloud Messaging (FCM):</strong> Used for push notifications. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a>.</li>
+            <li><strong>Supabase:</strong> Used as a backend for sharing features. <a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a>.</li>
+        </ul>
+
+        <h2>3. Children's Privacy</h2>
+        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers.</p>
+
+        <h2>4. Data Retention and Deletion</h2>
+        <ul>
+            <li><strong>Local Data:</strong> You have complete control over your local data. You can delete it instantly using the <strong>"Factory Reset App"</strong> option in Settings or by clearing the App's storage in Android settings.</li>
+            <li><strong>Cloud Data:</strong> Shared timetables are stored until they are no longer needed for sharing. Since they contain no personal data, they cannot be linked back to you.</li>
+        </ul>
+
+        <h2>5. Changes to This Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions, concerns, or suggestions regarding our Privacy Policy or data practices, please do not hesitate to contact the developer at: <br><br>
+        <a href="mailto:chavhannirbhay62@gmail.com">chavhannirbhay62@gmail.com</a></p>
+    </div>
+
+</body>
+</html>
